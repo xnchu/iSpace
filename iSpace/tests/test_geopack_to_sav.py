@@ -1498,7 +1498,7 @@ class test_geopack(unittest.TestCase):
             if(np.sqrt(xf2**2 + yf2**2 + zf2**2) > 2.0):
                 continue
             
-            # Test Geopack2005. It was ok in test_trace
+            # Test Geopack. It was ok in test_trace
             # This test is passed too, as expected.
             # Thus, these lines are commented out.
             # self.assertTrue(np.allclose(xf05, xf3, atol=5e-2) or np.allclose(xf05, xf3, rtol=5e-2))
