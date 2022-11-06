@@ -16,7 +16,7 @@ if 'win' in sysos:
 elif 'macos' in sysos and 'arm64' in sysos:    
     file = 'macarm/ispace.cpython-3'+python_minor_version+'-darwin.so'
 elif 'macos' in sysos and 'x86_64' in sysos:
-    file = 'macx86/ispace.cpython-3'+python_minor_version+'-darwin.so'
+    file = 'macintel/ispace.cpython-3'+python_minor_version+'-darwin.so'
 elif 'linux' in sysos:
     file = 'linux64/ispace.cpython-3'+python_minor_version+'-x86_64-linux-gnu.so'
 else: 
